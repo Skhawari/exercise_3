@@ -1,0 +1,14 @@
+
+samples: "config/samples.tsv"
+reference: "resources/reference.fna"
+adapter_file: "resources/adapters/TruSeq3-PE.fa"
+
+bowtie2:
+  sensitivity: "very-sensitive"
+  seed_mismatch: 1
+
+trimmomatic_params: "2:30:10"
+
+skip_fastqc: false
+skip_trimming: false
+skip_qualimap: false

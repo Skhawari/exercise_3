@@ -1,0 +1,10 @@
+name: qc
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - fastqc
+  - trimmomatic
+  - qualimap
+  - multiqc
+  - openjdk # for trimmomatic

@@ -1,0 +1,12 @@
+# Ignore input data
+data/
+
+# Snakemake cache and environments
+.snakemake/
+conda/
+*.snakemake
+*.log
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,8 @@
+name: bowtie
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bowtie2
+  - pandas
+  - python=3.9
