@@ -19,12 +19,13 @@ For each paired-end FASTQ sample, it performs:
 ```
 .
 ├── config/             # Contains config.yaml with paths and parameters
+│   └── samples.csv     # Sample information (paths to FASTQ files)
 ├── resources/          # Contains reference genome (reference.fa)
 ├── results/            # Output data: sam, bam, sorted bam, idxstats
-├── log/
-├── envs/           # Conda environment YAMLs (bowtie2.yaml, samtools.yaml)
-├── rules/          # Modular Snakemake rule files
-├── Snakefile       # Main Snakemake workflow
+├── workflow/
+│   ├── envs/           # Conda environment YAMLs (bowtie2.yaml, samtools.yaml)
+│   ├── rules/          # Modular Snakemake rule files
+│   └── Snakefile       # Main Snakemake workflow
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
